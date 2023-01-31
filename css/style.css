@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 968px;
+	margin: 0 auto;
+	margin-bottom: 1%;
+}
+
+.muted{
+	color: grey;
+}
+
+/* START eigen code */
+
+
+header{
+	background-color: rgba(153, 97, 173, 0.75);
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 250px;
+	content: icon;
+	margin-top: -45px;
+	margin-left: 40px;
+	display: inline;
+}
+
+
+nav{
+	justify-content: space-between;
+	margin-top: 70px;
+	display: inline;
+}
+
+
+body {
+	background-image: url("../img/antony-bec-nD9tEn63suc-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 105%
+}
+
+
+
+main{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background-color: rgba(105, 52, 148, 0.699);
+}
+
+
+footer{
+	background-color: black;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+nav a {
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #0c0a0e;
+	opacity: 100%;
+	margin: 40px;
+}
+
+.text {
+	margin: 10px;
+
+}
+
+p, ul, ol {
+	color: whitesmoke;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer p {
+	color: whitesmoke;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: steelblue;
+}
+
+footer a:visited {
+	color: steelblue;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+.alignedImg {
+	float: right;
+	margin: 5px;
+}
+
+
+.prod-desc-btn {
+	padding: 2px;
+	background-color: rgb(145, 64, 145);
+	border: 2px solid black;
+}
+
+
+.productTable {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+	border-collapse: collapse;
+	margin: 10px, 0px;
+}
+
+.productRow {
+	margin: 10px;
+	border: 2px black solid;
+}
+
+.productCell {
+    margin: 5px;
+    padding: 5px;
+	border: 2px black solid;
+}
+
+.defaultImg {
+	margin: 15px;
+}
+
+/* EINDE eigen code */
+
+.form-group{
+	padding: 10px;
+}
+
+.form-group label{
+	display: inline-block;
+	width: 150px;
+	cursor: pointer;
+	vertical-align: top;
+	color: whitesmoke;
+}
+
+.form-group input[type=text], .form-group textarea{
+	width: 300px;
+}
+
+.form-group input[type=submit]{
+	padding: 10px;
+	cursor: pointer;
+}
