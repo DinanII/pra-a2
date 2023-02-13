@@ -12,7 +12,7 @@
 
 	<!-- START eigen code -->
 	<main class="wrapper">
-			<h2>Marjon Déco</h2>
+			<h2>Test</h2>
 			<p class="text">
 				Liefde voor Frankrijk, creativiteit en vakmanschap zijn de basis voor Marjon Déco woonaccessoires. 
 				Elk stuk is uniek en met de hand gemaakt van kwalitatief hoogwaardige producten.  
